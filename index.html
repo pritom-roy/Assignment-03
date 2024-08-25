@@ -41,10 +41,80 @@
 
     <!-- daisyUI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
-    <h1 class="text-3xl bg-arrow">Hello World</h1>
+<body class="font-manrope">
+    <header class="bg-gradient-to-b from-[#e4e4e4] to-white">
+        <!-- Navbar -->
+        <div class="w-11/12 mx-auto">
+            <div class="navbar flex justify-between">
+                <div class="items-center">
+                    <i class="fa-solid fa-arrow-right -rotate-45 p-2 rounded-full bg-primary"></i>
+                    <h1 class="text-3xl font-extrabold pl-1">Rinterio</h1>
+                </div>
+                <div class="hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="hidden lg:flex space-x-4 ">
+                    <i
+                        class="fa-solid fa-magnifying-glass p-2 rounded-full bg-white flex items-center justify-center"></i>
+                    <i class="fa-solid fa-cart-shopping p-2 bg-white rounded-full flex items-center justify-center"></i>
+                    <a class="btn bg-primary font-extrabold text-base rounded-3xl">Book Consult <i
+                            class="fa-solid fa-arrow-right -rotate-45 p-1 rounded-full bg-secondary text-white"></i></a>
+
+                </div>
+                <div class="dropdown lg:hidden">
+                    <div tabindex="0" role="button" class="btn bg-white rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5" viewBox="0 0 448 512">
+                            <path
+                                d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-36 p-2 shadow right-0">
+                        <li><a>Home</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Banner -->
+        <div class="w-11/12 mx-auto ">
+            <div class="flex justify-center">
+                <img src="assets/banner.png" alt="House Picture">
+            </div>
+            <div class="text-center mt-3">
+                <h1 class="text-3xl font-extrabold mb-3 lg:text-7xl lg:mb-7">A barn house of this design has a striking
+                    appearance</h1>
+                <p class="text-[0.875rem] text-secondary lg:text-base mb-3 lg:w-9/12 lg:mx-auto lg:mb-5">The barn house
+                    captivates with its
+                    blend of
+                    rustic charm and modern sophistication, featuring
+                    weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                <a class="btn bg-primary_light font-extrabold text-base rounded-3xl">Book Consult <i
+                        class="fa-solid fa-arrow-right -rotate-45 p-1 rounded-full bg-primary"></i></a>
+            </div>
+        </div>
+    </header>
+    <main class="ml-7">
+
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 
 </html>
