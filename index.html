@@ -26,7 +26,9 @@
                         pink: '#E7C1D3',
                         yellow: '#EFDA6E',
                         teal: '#A4DAC3',
-                        sky: '#77AAEA'
+                        sky: '#77AAEA',
+                        fhead: '#E9E9E9',
+                        ftext: '#737373',
                     },
                     fontFamily: {
                         manrope: ["Manrope", 'sans-serif'],
@@ -330,7 +332,7 @@
             </div>
         </section>
         <!-- Discuss Project -->
-        <section class="bg-discuss bg-cover m-1 lg:m-2">
+        <section class="bg-discuss bg-cover my-1 lg:m-1">
             <div class="lg:max-w-5xl w-11/12 mx-auto pb-10 lg:pb-0">
                 <div class="flex justify-center lg:pt-24 pt-6">
                     <div class="bg-primary_light inline-flex px-2 py-0 rounded-2xl items-center">
@@ -359,12 +361,39 @@
                     <div class="col-span-2 row-span-3"><textarea placeholder="Write your message here"
                             class="h-full w-full rounded-3xl p-4 focus:outline-none focus:placeholder-transparent resize-none"></textarea>
                     </div>
+                    <a class="btn bg-primary font-extrabold text-base rounded-3xl w-full col-span-2 border-none">Send
+                        Mail
+                        <i class="fa-solid fa-arrow-right -rotate-45 p-1 rounded-full bg-secondary text-white"></i></a>
                 </div>
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="bg-secondary mb-1">
+        <div class="lg:w-10/12 w-11/12 mx-auto">
+            <div class="flex justify-center pt-16 lg:pt-24 pb-4">
+                <div class="flex items-center">
+                    <i class="fa-solid fa-arrow-right -rotate-45 p-2 rounded-full bg-primary"></i>
+                    <h1 class="text-3xl font-extrabold pl-1 text-fhead">Rinterio</h1>
+                </div>
+            </div>
+            <p class="text-ftext text-center max-w-2xl mx-auto pb-7 lg:pb-11">Explore our extensive listings to find
+                your
+                perfect
+                home. We
+                offer expert
+                guidance to help you every step of the way.</p>
+            <div class="flex flex-col lg:flex-row items-center lg:max-w-3xl justify-between mx-auto lg:pb-12">
+                <li class="list-none pb-3 lg:pb-0"><a class="text-fhead">Home</a></li>
+                <li class="list-none pb-3 lg:pb-0"><a class="text-fhead">Services</a></li>
+                <li class="list-none pb-3 lg:pb-0"><a class="text-fhead">Portfolio</a></li>
+                <li class="list-none pb-3 lg:pb-0"><a class="text-fhead">Blogs</a></li>
+                <li class="list-none pb-3 lg:pb-0"><a class="text-fhead">Contact Us</a></li>
+            </div>
+            <div class="flex justify-center pb-4">
+                <a class="btn bg-primary font-extrabold text-base rounded-3xl w-full lg:w-auto border-none">Book Consult
+                    <i class="fa-solid fa-arrow-right -rotate-45 p-1 rounded-full bg-secondary text-white"></i></a>
+            </div>
+        </div>
     </footer>
 </body>
 
